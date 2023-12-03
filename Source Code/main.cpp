@@ -281,7 +281,26 @@ void showHistory(const CalculatorHistory& history) {
 // Function to display the user manual.
 void showUserManual() {
     std::cout << "\nUser Manual:\n";
-    std::cout << "\n(Placeholder text for the user manual)\n";
+    std::cout << "--------------------------------------------------------------------------------\n";
+    std::cout << "\nWelcome to the C++ Arithmetic Expression Evaluator.\n";
+    std::cout << "This program allows you to evaluate arithmetic expressions involving\n";
+    std::cout << "basic operators such as +, -, *, /, %, and ^ (exponentiation).\n\n";
+    
+    std::cout << "Menu Options:\n";
+    std::cout << "1 - Enter Expression: Allows you to input an arithmetic expression.\n";
+    std::cout << "2 - History: Displays the history of evaluated expressions and their results.\n";
+    std::cout << "3 - User Manual: Shows this user manual.\n";
+    std::cout << "4 - Quit: Exits the program.\n\n";
+
+    std::cout << "Entering Expressions:\n";
+    std::cout << "Enter any arithmetic expression using numbers and operators.\n";
+    std::cout << "For example: '3 + 4 * 2', '2 ^ 3', '(4 + 5) / 2'.\n";
+    std::cout << "The program supports parentheses for grouping.\n\n";
+
+    std::cout << "History:\n";
+    std::cout << "After evaluating expressions, you can view their history\n";
+    std::cout << "along with the results by selecting the 'History' option.\n";
+    std::cout << "\n--------------------------------------------------------------------------------\n";
 }
 
 // Main program function.
